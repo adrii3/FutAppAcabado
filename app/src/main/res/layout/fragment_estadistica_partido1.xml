@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.JornadasFragment"
+    android:background="@color/blue_A700">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="100dp"
+        android:stretchColumns="1"
+        android:background="@drawable/boton_redondo">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/barcelona"
+                />
+            <TextView
+                android:text="ESTADÍSTICAS DE EQUIPO"
+                android:layout_gravity="center"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:textColor="@color/overlay_dark_90"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/realsociedad"
+                />
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="13"
+                android:textColor="@color/blue_A700"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Tiros"
+                android:textColor="@color/overlay_dark_90"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="9"
+                android:textColor="@color/blue_A700"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="6"
+                android:textColor="@color/blue_A700"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Tiros a puerta"
+                android:textColor="@color/overlay_dark_90"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="1"
+                android:textColor="@color/blue_A700"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="54%"
+                android:textColor="@color/blue_A700"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Posesión"
+                android:textColor="@color/overlay_dark_90"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="46%"
+                android:textColor="@color/blue_A700"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="526"
+                android:textColor="@color/blue_A700"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Pases"
+                android:textColor="@color/overlay_dark_90"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="439"
+                android:textColor="@color/blue_A700"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="83%"
+                android:textColor="@color/blue_A700"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Acierto en pases"
+                android:textColor="@color/overlay_dark_90"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="81%"
+                android:textColor="@color/blue_A700"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="12"
+                android:textColor="@color/blue_A700"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Faltas"
+                android:textColor="@color/overlay_dark_90"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="10"
+                android:textColor="@color/blue_A700"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="4"
+                android:textColor="@color/blue_A700"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Tarjetas amarillas"
+                android:textColor="@color/overlay_dark_90"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="3"
+                android:textColor="@color/blue_A700"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="0"
+                android:textColor="@color/blue_A700"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Tarjetas rojas"
+                android:textColor="@color/overlay_dark_90"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="0"
+                android:textColor="@color/blue_A700"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="3"
+                android:textColor="@color/blue_A700"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Fueras de juego"
+                android:textColor="@color/overlay_dark_90"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="2"
+                android:textColor="@color/blue_A700"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="4"
+                android:textColor="@color/blue_A700"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Saques de esquina"
+                android:textColor="@color/overlay_dark_90"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="4"
+                android:textColor="@color/blue_A700"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textAlignment="center"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"/>
+
+    </TableLayout>
+</LinearLayout>
